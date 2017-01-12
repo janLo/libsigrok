@@ -89,7 +89,7 @@ static const struct fx2lafw_profile supported_fx2[] = {
 	 */
 	{ 0x0925, 0x3881, "Saleae", "Logic", NULL,
 		"fx2lafw-saleae-logic.fw",
-		0, NULL, NULL},
+		DEV_CAPS_16BIT, NULL, NULL},
 
 	/*
 	 * Default Cypress FX2 without EEPROM, e.g.:
